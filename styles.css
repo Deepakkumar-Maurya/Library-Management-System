@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(30, 166, 181);
+}
+
+#hero .container {
+    width: 50%;
+    align-items: center;
+    
+}
+#mainimg {
+    height: 25vh;
+    width: 25vh;
+}
+
+.feature {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    margin: 5vh;
+}
+.featureimg {
+    height: 50vh;
+    width: 50vh;
+}
+
+#about {
+    width: 100%;
+    height: 30vh;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+}
